@@ -1,5 +1,5 @@
 @echo off
-title Aion Core BuildAll console -- by Ares! -- Revised By Crash Override, Untamed, Bootyroast, Dallas
+title Aion X Emu BuildAll Console -- by Ares! -- Revised By Crash Override, Untamed, Bootyroast, Dallas
 
 CLS
 :MENU
