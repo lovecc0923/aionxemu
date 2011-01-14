@@ -1,5 +1,5 @@
 /*
- *  This file is part of AionCore <http://www.aioncore.com>.
+ *  This file is part of aionxemu <http://www.aionxemu.com>.
  *
  *  This software is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published

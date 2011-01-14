@@ -1,5 +1,5 @@
 @echo off
-title Aion Core LoginServer Sql import console -- by Ares!
+title Aion X Emu LoginServer Sql import console -- by Ares!
 
 CLS
 :MENU

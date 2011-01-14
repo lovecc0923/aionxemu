@@ -1,5 +1,5 @@
 /**
- * This file is part of Aion Core <aioncore.com>
+ * This file is part of Aion X Emu <aionxemu.com>
  *
  *  This is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU Lesser Public License as published by
@@ -30,22 +30,24 @@ public class AionEngineCS
 	public static void infoCS()
 	{
 		_log.info("-------------------------------------------------------------");
-		_log.info("	 			Team Lead:									    ");
-		_log.info("				 Magenik 										");
-		_log.info("				 Kaipo											");
+		_log.info("	 			  This Is A Community Ran Project				");
+		_log.info("		        For the Community, By The Community		 		");
+		_log.info("				      	Log In,Play,Enjoy!                      ");
 		_log.info("																");
 		_log.info("-------------------------------------------------------------");
-		_log.info("			        -Aion Engine Developers- 					");
+		_log.info("			        											");
+		_log.info("																");
+		_log.info("					-Aion X Emu Developers- 					");
 		_log.info("	                						                    ");
-		_log.info("	            Shinji | Blu3crim3s666 | sphinx                 ");
+		_log.info("	        Crash Override | Bootyroast | LiquidIce             ");
 		_log.info("                                                             ");
-		_log.info("			      Vyaslav | Soyeon |  Night		        		");
+		_log.info("			       More Will Be Added Soon...					");
 		_log.info("                                                             ");
-		_log.info("				Persona | ^errant^ | Saphary                    ");
+		_log.info("											                    ");
 		_log.info("                                                             ");
-		_log.info("             dta3000 | kkamshi | Nagato90                    ");
+		_log.info("             							                    ");
 		_log.info("                                                             ");
-		_log.info("                   Acu_kor | bigbro                          ");
+		_log.info("                                                             ");
 		_log.info("																");
 		_log.info("-------------------------------------------------------------");
 		_log.info("																");	
@@ -57,14 +59,21 @@ public class AionEngineCS
 		_log.info("      #+#     #+#     #+#     #+#    #+# #+#   #+#+#  		");
 		_log.info("      ###     ### ###########  ########  ###    ####  		");
 		_log.info("																");
-		_log.info("::::::: ::::    :::  ::::::::  :::::::::: ::::    ::: :::::::");
-		_log.info(":+:     :+:+:   :+: :+:    :+:    :+:     :+:+:   :+: :+:    ");
-		_log.info("+:+     :+:+:+  +:+ +:+           +:+     :+:+:+  +:+ +:+    ");
-		_log.info("+#++:+  +#+ +:+ +#+ :#:           +#+     +#+ +:+ +#+ +#++:+ ");
-		_log.info("+#+     +#+  +#+#+# +#+   +#+#    +#+     +#+  +#+#+# +#+    ");
-		_log.info("#+#     #+#   #+#+# #+#    #+#    #+#     #+#   #+#+# #+#    ");
-		_log.info("####### ###    ####  ########  ########## ###    #### #######");
-		_log.info(" 															");
+		_log.info("						    :::    :::							");
+		_log.info("							:+:    :+:							");
+		_log.info("							 +:+  +:+							");
+		_log.info("							  +#++:+							");
+		_log.info("							 +#+  +#+     						");
+		_log.info("							#+#    #+#							");
+		_log.info("							###    ###							");
+		_log.info("																");
+		_log.info("  		    :::::::::: ::::    ::::: :::    :::				");
+		_log.info("    		    :+:        +:+:+: :+:+:+ :+:    :+:				");
+		_log.info(" 		    +:+        +:+ +:+:+ +:+ +:+    +:+				");
+		_log.info("   			+#++:++#   +#+  +:+  +#+ +#+    +:+				");
+		_log.info("  			+#+        +#+       +#+ +#+    +#+				");
+		_log.info("				#+#        #+#       #+# #+#    #+#				");
+		_log.info(" 			########## ###       ###  ########				");
 		_log.info("-------------------------------------------------------------");
 	}
 }
