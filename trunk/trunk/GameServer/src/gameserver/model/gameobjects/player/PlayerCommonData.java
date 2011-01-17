@@ -67,7 +67,7 @@ public class PlayerCommonData extends VisibleObjectTemplate {
     private WorldPosition position;
     private int cubeSize = 0;
     private int warehouseSize = 0;
-    private int advencedStigmaSlotSize = 0;
+    private int advencedStigmaSlotSize = 5;
     private int bindPoint;
     private int titleId = -1;
     private int dp = 0;
