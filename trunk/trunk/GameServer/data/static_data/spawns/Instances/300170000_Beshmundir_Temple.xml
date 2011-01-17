@@ -881,4 +881,8 @@
     	<spawn map="300170000" npcid="216169" pool="1" interval="44200">
         	<object  x="1173.88" y="1212.45" z="283.5" h="0" />
     	</spawn>
+	<!-- Beshmundir Temple -> Prison Of Ice Portal -->
+    	<spawn map="300170000" npcid="730275" pool="1" interval="295">
+        	<object  x="1611.1266" y="1604.6935" z="310.5" h="17" />
+    	</spawn>
 </spawns>

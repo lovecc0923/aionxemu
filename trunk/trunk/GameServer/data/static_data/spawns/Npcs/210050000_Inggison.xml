@@ -10,6 +10,10 @@
 	<spawn map="210050000" npcid="730292" pool="1" interval="295">
 		<object x="144.2154" y="2061.28154" z="438.14926" h="93"/>
 	</spawn>
+	<!-- Inggison to Gelkmaros -->
+	<spawn map="210050000" npcid="730271" pool="1" interval="295">
+		<object h="90" x="1094.0723" y="2173.3784" z="341.3571"/>
+	</spawn>
 	<spawn map="210050000" npcid="205291" pool="1" interval="295">
 		<object h="110" x="1385.3496" y="277.646" z="589.67065"/>
 	</spawn>

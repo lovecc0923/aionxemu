@@ -573,8 +573,4 @@
 	<spawn map="300160000" npcid="216531" pool="1" interval="295">
 		<object x="1240.286" y="992.8887" z="103.947334" h="48"/>
 	</spawn>
-	<!-- Heavy Stone Door (Object lvl:3) -->
-	<spawn map="300160000" npcid="700484" pool="1" interval="295">
-		<object x="1145.699" y="305.90942" z="110.494064" h="29"/>
-	</spawn>
 </spawns>

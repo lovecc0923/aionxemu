@@ -6,6 +6,18 @@
 	<spawn map="220070000" npcid="799325" pool="1" interval="295">
 		<object x="981.11395" y="2565.7437" z="241.7037" h="114"/>
 	</spawn>
+	<!-- Silentera Entrance -->
+	<spawn map="220070000" npcid="730260" pool="1" interval="295">
+		<object x="1449.097" y="905.3585" z="294.02194" h="33"/>
+	</spawn>
+	<!-- Udas temple entrance -->
+	<spawn map="220070000" npcid="730278" pool="1" interval="295">
+		<object x="2265.4365" y="1606.0594" z="310.72098" h="52"/>
+	</spawn>
+	<!-- Lower Udas temple entrance -->
+	<spawn map="220070000" npcid="730280" pool="1" interval="295">
+		<object x="2252.975" y="1731.2687" z="309.5974" h="67"/>
+	</spawn>
 	<!-- Padmarashka Entrance -->
 	<spawn map="220070000" npcid="730293" pool="1" interval="295">
 		<object x="2971.7256" y="1215.9103" z="242.0056" h="0"/>
