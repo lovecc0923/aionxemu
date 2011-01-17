@@ -159,7 +159,7 @@ public class DarkPoetaInstanceService {
               || monster.getObjectTemplate().getTemplateId() == 215389)
           	pointsReward = 786;
         else if (monster.getObjectTemplate().getTemplateId() == 214904)
-        	pointsReward = 20001;
+        	pointsReward = 954;
 
         if (leader.getAbyssRank().getRank().getId() >= 10)
             pointsReward = Math.round(pointsReward * 1.1f);

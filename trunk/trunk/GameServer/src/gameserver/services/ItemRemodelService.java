@@ -100,6 +100,38 @@ public class ItemRemodelService {
             return;
         }
 
+		// TODO: Find a consistent mask value to determine if item may be remodeled.
+
+
+        // Temporary check... I *think* epic and mythic items can *never* be remodeled...
+
+        if (keepItem.getItemTemplate().getItemQuality() == ItemQuality.EPIC ||
+
+                keepItem.getItemTemplate().getItemQuality() == ItemQuality.MYTHIC) {
+
+            PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1300478,
+
+                    new DescriptionId(keepItem.getItemTemplate().getNameId())));
+
+            return;
+
+        }
+
+
+        // Check for hacks... I *think* epic and mythic items can *never* be remodeled...
+
+        if (extractItem.getItemTemplate().getItemQuality() == ItemQuality.EPIC ||
+
+                extractItem.getItemTemplate().getItemQuality() == ItemQuality.MYTHIC) {
+
+            PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1300482,
+			
+                    new DescriptionId(extractItem.getItemTemplate().getNameId())));
+            return;
+        }
+
+		
+        // -- SUCCESS --
         // Remove Money
         player.getInventory().decreaseKinah(remodelCost);
 
