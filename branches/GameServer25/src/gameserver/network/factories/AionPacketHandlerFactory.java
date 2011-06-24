@@ -180,7 +180,7 @@ public class AionPacketHandlerFactory
 		addPacket(new CM_OBJECT_SEARCH(0xF9), State.IN_GAME);// 2.1
 		addPacket(new CM_ENTER_WORLD(0xFA), State.AUTHED);// 2.1
 		addPacket(new CM_LEVEL_READY(0xFB), State.IN_GAME);// 2.1
-		addPacket(new CM_CHARACTER_EDIT(0xF5), State.AUTHED);// 2.1
+		addPacket(new CM_CHARACTER_EDIT(0xF5), State.AUTHED);// 2.5 o.o...
 
 		// opcode 70 broker sell page
 		// opcode 6c broker sold items page

@@ -72,7 +72,7 @@ public class NpcController extends CreatureController<Npc> {
     public void notSee(VisibleObject object, boolean isOutOfRange) {
         super.notSee(object, isOutOfRange);
         if(object instanceof Player || object instanceof Summon)
-            getOwner().getAi().handleEvent(Event.NOT_SEE_PLAYER);	
+            getOwner().getAi().handleEvent(Event.NOT_SEE_PLAYER);    
     }
 
     @Override
@@ -428,19 +428,19 @@ public class NpcController extends CreatureController<Npc> {
                 break;
             case 55:
             case 56:
-                byte changesex = 0; //0 plastic surgery, 1 gender switch
-                byte check_ticket = 2; // 2 no ticket, 1 have ticket
-                if (dialogId == 56) {
-                    //Gender Switch
-                    changesex = 1;
-                    if (player.getInventory().getItemCountByItemId(169660000) > 0 || player.getInventory().getItemCountByItemId(169660001) > 0)
-                        check_ticket = 1;
-                } else {
-                    //Plastic Surgery
-                    if (player.getInventory().getItemCountByItemId(169650000) > 0 || player.getInventory().getItemCountByItemId(169650001) > 0)
-                        check_ticket = 1;
-                }
-                PacketSendUtility.sendPacket(player, new SM_PLASTIC_SURGERY(player, check_ticket, changesex));
+                //Plastic Surgery
+                if (player.getInventory().getItemCountByItemId(169650000) > 0 || player.getInventory().getItemCountByItemId(169650001) > 0)
+                    PacketSendUtility.sendPacket(player, new SM_PLASTIC_SURGERY(player, true, false));  
+                else
+                    PacketSendUtility.sendPacket(player, new SM_PLASTIC_SURGERY(player, false, false));  
+                player.setEditMode(true);
+                break;
+            case 57:
+                //Gender Switch
+                if (player.getInventory().getItemCountByItemId(169660000) > 0 || player.getInventory().getItemCountByItemId(169660001) > 0)
+                    PacketSendUtility.sendPacket(player, new SM_PLASTIC_SURGERY(player, true, true));  
+                else
+                    PacketSendUtility.sendPacket(player, new SM_PLASTIC_SURGERY(player, false, true));  
                 player.setEditMode(true);
                 break;
             case 60:
@@ -504,7 +504,7 @@ public class NpcController extends CreatureController<Npc> {
             return;
         }
         if(getOwner().getTribe().equals("DUMMY"))
-        	damage = 0;
+            damage = 0;
 
         getOwner().getKnownList().doOnAllNpcs(new Executor<Npc>() {
             @Override
